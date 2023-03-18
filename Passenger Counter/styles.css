@@ -1,0 +1,53 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1609096837711-47829e75af0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVzJTIwc3RhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+
+}
+.container{
+    background : white;
+    max-width: 60%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 8px;
+
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+#save-el{
+    color: rgb(85, 15, 223);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
